@@ -19,7 +19,7 @@ public:
 		height = h;
 	}
 
-	Box(const Box& B) {
+	Box(Box& B) {
 		length = B.length;
 		breadth = B.breadth;
 		height = B.height;
