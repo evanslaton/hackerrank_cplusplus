@@ -20,7 +20,7 @@ int main() {
 	v.erase(v.begin() + (startRange - 1), v.begin() + (endRange - 1));
 
 	cout << v.size() << endl;
-	for (auto i = v.begin(); i != v.end(); ++i) {
+	for (auto i = v.begin(); i != v.end(); i++) {
 		cout << *i << " ";
 	}
 	return 0;
