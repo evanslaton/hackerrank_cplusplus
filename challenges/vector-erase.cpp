@@ -5,7 +5,6 @@
 #include <algorithm>
 using namespace std;
 
-
 int main() {
 	int length, number, indexToRemove, startRange, endRange;
 	cin >> length;
