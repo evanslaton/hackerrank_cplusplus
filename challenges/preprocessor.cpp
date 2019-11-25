@@ -13,7 +13,7 @@ using namespace std;
 #endif 
 
 FUNCTION(minimum, < )
-	FUNCTION(maximum, > )
+FUNCTION(maximum, > )
 
 	int main() {
 	int n; cin >> n;
